@@ -1,4 +1,3 @@
-
 // main.ts file
 import { doubleNumber } from './dn.js';
 
@@ -8,12 +7,12 @@ console.log("Ex5: Doubled:", resultModules);
 
 
 
-// /**
-//  * 
-//  * Assignment 7: Interface with Classes
-//  * Assignment Description:
-//  * Understanding how interfaces work with classes is crucial. Define an interface YourInterface with properties property1, property2, and a method yourMethod. Create a class YourClass that implements this interface and displays the properties using the yourMethod. Instantiate a YourClass object and call the yourMethod.
-//  */
+/**
+* 
+* Assignment 7: Interface with Classes
+* Assignment Description:
+* Understanding how interfaces work with classes is crucial. Define an interface YourInterface with properties property1, property2, and a method yourMethod. Create a class YourClass that implements this interface and displays the properties using the yourMethod. Instantiate a YourClass object and call the yourMethod.
+*/
 interface Vehicle {
   brand: string;
   model: string;
@@ -36,15 +35,6 @@ class Car implements Vehicle {
 
 const myCar = new Car("Toyota", "Camry");
 myCar.startEngine();
-
-
-
-
-
-
-
-
-
 
 
 // Example 4 : Public, Private, and Readonly
